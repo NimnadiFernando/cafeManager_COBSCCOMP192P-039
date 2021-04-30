@@ -11,7 +11,9 @@ import Loaf
 
 class PreviewViewController: UIViewController {
 
+   
     @IBOutlet weak var tblFoodItems: UITableView!
+    
     @IBOutlet weak var collectionViewCategories: UICollectionView!
     
     let databaseReference = Database.database().reference()

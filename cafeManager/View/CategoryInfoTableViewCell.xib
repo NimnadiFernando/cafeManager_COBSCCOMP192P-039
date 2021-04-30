@@ -45,7 +45,7 @@
             <connections>
                 <outlet property="lblCategoryName" destination="3qw-Zi-b0l" id="7Gw-q0-JNC"/>
             </connections>
-            <point key="canvasLocation" x="122" y="96"/>
+            <point key="canvasLocation" x="-72" y="2"/>
         </tableViewCell>
     </objects>
     <resources>

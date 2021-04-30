@@ -14,9 +14,11 @@ class OrderViewController: UIViewController {
     var orders: [Order] = []
     var filteredOrders: [Order] = []
     
+   
     @IBOutlet weak var segtabs: UISegmentedControl!
     let databaseReference = Database.database().reference()
 
+    
     @IBOutlet weak var tblOrders: UITableView!
     
     override func viewDidLoad() {

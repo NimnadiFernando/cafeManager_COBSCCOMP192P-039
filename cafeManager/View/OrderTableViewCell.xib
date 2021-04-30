@@ -39,10 +39,9 @@
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OrderStatus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eim-qC-acV">
                                 <rect key="frame" x="237.5" y="23" width="72.5" height="14.5"/>
-                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="textColor" systemColor="systemPurpleColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGray4Color"/>
@@ -67,7 +66,7 @@
                 <outlet property="lblOrderID" destination="jlf-gM-UeN" id="8fz-V3-teF"/>
                 <outlet property="lblStatus" destination="Eim-qC-acV" id="mTe-Kx-Tqv"/>
             </connections>
-            <point key="canvasLocation" x="-12" y="96"/>
+            <point key="canvasLocation" x="-7" y="-1"/>
         </tableViewCell>
     </objects>
     <resources>
