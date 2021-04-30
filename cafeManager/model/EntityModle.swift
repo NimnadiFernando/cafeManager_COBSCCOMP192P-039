@@ -2,7 +2,7 @@
 //  EntityModle.swift
 //  NIBMCafe
 //
-//  Created by Admin on 2021-04-11.
+//  Created by Nimnadi Fernanndo on 2021-04-11.
 //
 
 import Foundation
