@@ -7,7 +7,30 @@
 		<key>cafeManager.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>17</integer>
+		</dict>
+		<key>cafeManager_COBSCCOMP192P-039.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8421A276263C441A0028E18B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8421A286263C44310028E18B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>84F7D9F7263B24FA0089A2A7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
