@@ -280,7 +280,7 @@
         <!--Category-->
         <scene sceneID="tfG-ks-tni">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="jw4-WN-8dR" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="jw4-WN-8dR" customClass="CategoryViewController" customModule="cafeManager" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cMQ-mO-8ad">
                         <rect key="frame" x="0.0" y="0.0" width="280" height="438"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -340,7 +340,7 @@
         <!--Items-->
         <scene sceneID="wOy-yh-ONB">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="vV6-v1-cyx" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="vV6-v1-cyx" customClass="MenuViewController" customModule="cafeManager" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gME-87-9Mc">
                         <rect key="frame" x="0.0" y="0.0" width="280" height="438"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -445,7 +445,7 @@
         <!--Preview-->
         <scene sceneID="3ok-xh-5mm">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="rb5-Ri-oVK" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="rb5-Ri-oVK" customClass="PreviewViewController" customModule="cafeManager" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L93-dy-Tcx">
                         <rect key="frame" x="0.0" y="0.0" width="280" height="438"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -598,7 +598,7 @@
         <!--Profile-->
         <scene sceneID="HrX-QN-wHs">
             <objects>
-                <viewController id="cFf-Ta-ape" customClass="profileViewController" customModule="cafeManager" sceneMemberID="viewController">
+                <viewController id="cFf-Ta-ape" customClass="OrderViewController" customModule="cafeManager" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ftA-Td-7xr">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -609,7 +609,9 @@
                                     <segment title="Pendding"/>
                                     <segment title="Prepareing"/>
                                     <segment title="Ready"/>
-                                    <segment title="Complete"/>
+                                    <segment title="Done"/>
+                                    <segment title="Arrive"/>
+                                    <segment title="Cancle"/>
                                 </segments>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="euc-z0-igQ">
