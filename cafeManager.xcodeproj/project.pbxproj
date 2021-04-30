@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		11B750F6D86B27A5C6D11170 /* Pods_cafeManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F881982828BC1D66A538F8C0 /* Pods_cafeManager.framework */; };
 		361E177CEE3F3F54250E7A16 /* Pods_cafeManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C76C3DC7C32EB2AFF3A6BBC0 /* Pods_cafeManagerTests.framework */; };
+		8421A19C263BB5A00028E18B /* StoreRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421A19B263BB5A00028E18B /* StoreRootViewController.swift */; };
+		8421A1BC263BC6AF0028E18B /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421A1BB263BC6AF0028E18B /* profileViewController.swift */; };
 		84F7D9FC263B24FA0089A2A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7D9FB263B24FA0089A2A7 /* AppDelegate.swift */; };
 		84F7D9FE263B24FA0089A2A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7D9FD263B24FA0089A2A7 /* SceneDelegate.swift */; };
 		84F7DA00263B24FA0089A2A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F7D9FF263B24FA0089A2A7 /* ViewController.swift */; };
@@ -47,6 +49,8 @@
 		13D83D6CF0CA5A0299D4475D /* Pods-cafeManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cafeManagerTests.release.xcconfig"; path = "Target Support Files/Pods-cafeManagerTests/Pods-cafeManagerTests.release.xcconfig"; sourceTree = "<group>"; };
 		462F859732F150D5422A00A6 /* Pods-cafeManager-cafeManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cafeManager-cafeManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-cafeManager-cafeManagerUITests/Pods-cafeManager-cafeManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		81CC4CBB41B11B1724627A64 /* Pods-cafeManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cafeManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-cafeManagerTests/Pods-cafeManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8421A19B263BB5A00028E18B /* StoreRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreRootViewController.swift; sourceTree = "<group>"; };
+		8421A1BB263BC6AF0028E18B /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		84F7D9F8263B24FA0089A2A7 /* cafeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cafeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F7D9FB263B24FA0089A2A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F7D9FD263B24FA0089A2A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +130,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		84383991263B4A5100050BE0 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				8421A19B263BB5A00028E18B /* StoreRootViewController.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
 		84F7D9EF263B24FA0089A2A7 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +163,7 @@
 		84F7D9FA263B24FA0089A2A7 /* cafeManager */ = {
 			isa = PBXGroup;
 			children = (
+				84383991263B4A5100050BE0 /* Store */,
 				84F7DA83263B2F6D0089A2A7 /* model */,
 				84F7DA7D263B2EE80089A2A7 /* Utill */,
 				84F7DA2F263B27BA0089A2A7 /* StoryBoard */,
@@ -189,6 +202,7 @@
 			children = (
 				84F7DAA8263B31170089A2A7 /* SingupViewController.swift */,
 				84F7DA30263B28710089A2A7 /* logingViewController.swift */,
+				8421A1BB263BC6AF0028E18B /* profileViewController.swift */,
 			);
 			path = ViewControlers;
 			sourceTree = "<group>";
@@ -459,11 +473,13 @@
 			files = (
 				84F7DA85263B2F6D0089A2A7 /* EntityModle.swift in Sources */,
 				84F7DA31263B28710089A2A7 /* logingViewController.swift in Sources */,
+				8421A19C263BB5A00028E18B /* StoreRootViewController.swift in Sources */,
 				84F7DAA9263B31170089A2A7 /* SingupViewController.swift in Sources */,
 				84F7DA00263B24FA0089A2A7 /* ViewController.swift in Sources */,
 				84F7DA7F263B2EFB0089A2A7 /* InputValideter.swift in Sources */,
 				84F7D9FC263B24FA0089A2A7 /* AppDelegate.swift in Sources */,
 				84F7DAA1263B30740089A2A7 /* SessionManager.swift in Sources */,
+				8421A1BC263BC6AF0028E18B /* profileViewController.swift in Sources */,
 				84F7D9FE263B24FA0089A2A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
